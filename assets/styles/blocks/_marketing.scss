@@ -1,0 +1,38 @@
+.marketing {
+    background: #ECF0F7;
+    &__box {
+        padding-top: 120px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__left {
+        margin-top: 160px;
+    }
+
+    &__item-img {
+        position: relative;
+        font-size: 0;
+        &:after {
+            content: '';
+            width: 160px;
+            height: 160px;
+            background: #A294FF;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    &__plus {
+        &:before {
+            content: '+';
+            font-size: 75px;
+            position: absolute;
+            color: #ffffff;
+            z-index: 1;
+            top: 39px;
+            left: 57px;
+        }
+    }
+}

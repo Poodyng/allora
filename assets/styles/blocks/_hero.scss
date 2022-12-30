@@ -1,0 +1,85 @@
+.hero {
+    padding: 70px 0 0;
+    &__box {
+        text-align: center;
+    }
+
+    &__text {
+        position: relative;
+        display: flex;
+        &:after {
+            content:'';
+            width: 250px;
+            height: 1px;
+            border-bottom: 1px solid #9181FF;
+            position: absolute;
+            top: 232%;
+            right: 40.5%;
+        }
+    }
+
+    &__item {
+        margin: 0 auto;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #373C42;
+    }
+
+    &__range {
+        display: flex;
+    }
+
+    &__boxi {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #7361E7;
+        border-radius: 15px;
+        transition: 0.4s ease;
+        &:hover {
+            background-color: rgba(162, 148, 255, 1);
+        }
+    }
+
+    &__boxic {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #7361E7;
+        border-radius: 15px;
+        background-color: rgba(162, 148, 255, 1);
+        transition: 0.4s ease;
+        &:hover {
+            background-color: #ffffff;
+        }
+    }
+
+    &__word {
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 75px;
+        color: #373C42;
+        margin: 80px 0 30px;
+    }
+
+    &__sub-word {
+        margin: 0 auto;
+        max-width: 773px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.25px;
+        color: #7F8893;
+    }
+
+    &__buttons {
+        margin-top: 40px;
+        text-align: center;
+    }
+}

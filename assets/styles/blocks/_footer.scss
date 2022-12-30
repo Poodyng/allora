@@ -1,0 +1,46 @@
+.footer {
+    padding: 30px 0 45px;
+    background: #292E36;
+    &__header {
+        margin-bottom: 15px;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+    }
+
+    &__sub-title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        color: #9181FF;
+
+    }
+
+    &__list {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    &__word {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #ABB9CA;
+        transition: 0.4s ease;
+        &:hover {
+            cursor: pointer;
+            color: #9181FF;
+        }
+    }
+}

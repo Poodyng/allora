@@ -1,0 +1,91 @@
+.about {
+    padding: 120px 0 120px;
+    background: #8372F0;
+    position: relative;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        &:after {
+            content: '';
+            border-left: 2px solid rgba(255, 255, 255, 0.15);
+            height: 100%;
+            position: absolute;  
+            top: 0%;
+            right: 70.4%;
+        }
+        &::before {
+            content: '';
+            border-left: 2px solid rgba(255, 255, 255, 0.15);
+            height: 100%;
+            position: absolute;  
+            top: 0%;
+            right: 50%;
+        }
+    }
+
+    &__title {
+        position: relative;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &:after {
+            content: '';
+            width: 200px;
+            height: 1px;
+            border-top: 1px solid  #FFFFFF;
+            position: absolute;
+            left: 30%;
+            top: 39%;
+        }
+    }
+
+    &__sub-title {
+        margin: 20px 0 30px;
+        max-width: 512px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46px;
+        color: #FFFFFF;
+        &::before {
+            content: '';
+            border-left: 2px solid rgba(255, 255, 255, 0.15);
+            height: 100%;
+            position: absolute;  
+            top: 0%;
+            right: 31%;
+        }
+    }
+
+    &__word {
+        max-width: 555px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    &__img {
+        
+        &::before {
+            content: '';
+            width: 400px;
+            height: 190px;
+            background: url(/assets/images/icons/fame-comments-one.png);
+            position: absolute;
+            top: 61.5%;
+            right: 38.2%;
+        }
+        &::after {
+            content: '';
+            width: 400px;
+            height: 190px;
+            background: url(/assets/images/icons/fame-comments-two.png);
+            position: absolute;
+            top: 39.6%;
+            right: 17.6%;
+        }
+    }
+}

@@ -1,0 +1,179 @@
+.contact {
+    padding: 135px 0 70px;
+    &__header {
+        padding-bottom: 85px;
+    }
+
+    &__title {
+        position: relative;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #373C42;
+        &::after {
+            content: '';
+            width: 120px;
+            border-bottom: 1px solid #9181FF;
+            position: absolute;
+            top: 40%;
+            right: 78%;
+        }
+    }
+
+    &__sub-title {
+        margin: 20px 0 30px;
+        max-width: 452px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46px;
+        color: #373C42;
+    }
+
+    &__word {
+        max-width: 564px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.25px;
+        color: #616161;
+    }
+
+    &__block-card {
+       display: flex;
+       justify-content: space-between;
+    }
+
+    &__card-left {
+        position: relative;
+        padding: 40px 40px 100px 40px;
+        background: #9181FF;
+        border-radius: 3px;
+        transition: 0.4s ease;
+        &::after {
+            content: '01';
+            padding: 16px 18px;
+            background: #C4BCEC;
+            position: absolute;
+            font-weight: 400;
+            font-size: 17px;
+            color: #373C42;
+            top: 3%;
+            right: 94%;
+        }
+        &:hover {
+            box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+    &__text {
+        margin-bottom: 57px;
+    }
+
+    &__sub-word {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__words {
+        margin-top: 10px;
+        max-width: 484px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+
+    &__form {
+        resize: none;
+        margin-bottom: 14px;
+        padding: 14px 50px 14px 27px;
+        background: #F6F8FA;
+        border: 1px solid #CCCCCC;
+        border-radius: 3px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000;
+    }
+
+    &__card-one {
+        position: relative;
+        padding: 40px 58px 47px 40px;
+        background: #9181FF;
+        border-radius: 3px;
+        transition: 0.4s ease;
+        &::after {
+            content: '02';
+            padding: 16px 18px;
+            background: #C4BCEC;
+            position: absolute;
+            font-weight: 400;
+            font-size: 17px;
+            color: #373C42;
+            top: 7%;
+            right: 94%;
+        }
+        &:hover {
+            box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    &__card-two {
+        position: relative;
+        margin-top: 50px;
+        padding: 40px 66px 46px 40px;
+        background: #9181FF;
+        border-radius: 3px;
+        transition: 0.4s ease;
+        &::before {
+            content: '03';
+            padding: 16px 18px;
+            background: #C4BCEC;
+            position: absolute;
+            font-weight: 400;
+            font-size: 17px;
+            color: #373C42;
+            top: 12%;
+            right: 94%;
+        }
+        &:hover {
+            box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    &__block-text-one {
+        margin-top: 10px;
+    }
+
+    &__block-text-two {
+        margin: 25px 0 18px;
+    }
+
+    &__sub-words {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+    }
+
+    &__sub-wordes {
+        max-width: 459px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+    }
+
+    &__block-text-four {
+        display: flex;
+        margin-top: 35px;
+        align-items: center;
+        gap: 6px;
+    }
+}

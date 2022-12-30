@@ -1,0 +1,50 @@
+.usefull {
+    padding: 50px 0 60px;
+    &__header {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #373C42;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        align-items: center;
+    }
+
+    &__sub-list {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        align-items: center;
+    }
+
+    &__sub-title {
+        border-bottom: 1px solid #9181FF;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #373C42;
+        transition: 0.4s ease;
+        &:hover {
+            cursor: pointer;
+            color: #9181FF;
+            border-bottom: 1px solid #373C42;
+        }
+    }
+
+    &__boxic {
+        width: 6px;
+        height: 6px;
+        background: #7F8893;
+    }
+}

@@ -1,0 +1,23 @@
+.footer__title {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.25px;
+  color: #FFFFFF;
+}
+
+.footer__sub-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #9181FF;
+}
+
+.footer__word {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ABB9CA;
+}
+/*# sourceMappingURL=.footer.css.map */

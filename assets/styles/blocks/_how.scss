@@ -1,0 +1,129 @@
+.how {
+    padding: 120px 0 60px;
+    &__title {
+        position: relative;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #373C42;
+        &:after {
+            content:'';
+            width: 120px;
+            height: 1px;
+            border-bottom: 1px solid #9181FF;
+            position: absolute;
+            top: 35%;
+            right: 73%;
+        }
+    }
+
+    &__sub-title {
+        margin: 20px 0;
+        font-weight: 400;
+        font-size: 39px;
+        line-height: 46px;
+        color: #373C42;
+    }
+
+    &__word {
+        max-width: 470px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #7F8893;
+    }
+
+    &__table {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 258px;
+    }
+
+    &__card-one {
+        position: relative;
+        padding-left: 22px;
+        border-left: 2px solid #ABB9CA;
+        height: 500px;
+        &::after {
+            content: '';
+            width: 15px;
+            height: 15px;
+            border: 2px solid #ABB9CA;
+            position: absolute;
+            top: 100%;
+            right: 96%;
+        }
+    }
+
+    &__card-two {
+        position: relative;
+        margin-top: -153px;
+        padding-left: 22px;
+        border-left: 2px solid #ABB9CA;
+        height: 500px;
+        &::before {
+            content: '';
+            width: 15px;
+            height: 15px;
+            border: 2px solid #ABB9CA;
+            position: absolute;
+            top: 100%;
+            right: 96%;
+        }
+    }
+
+    &__card-three {
+        position: relative;
+        margin-top: -35px;
+        padding-left: 22px;
+        border-left: 2px solid #ABB9CA;
+        height: 500px;
+        &::after {
+            content: '';
+            width: 15px;
+            height: 15px;
+            border: 2px solid #ABB9CA;
+            position: absolute;
+            top: 100%;
+            right: 96%;
+        }
+    }
+
+    &__words {
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #373C42;
+    }
+
+    &__sub-words {
+        max-width: 237px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #373C42;
+    }
+
+    &__block {
+        margin-top: -360px;
+        padding: 17px;
+        width: 100%;
+        height: 500px;
+        border-top: 2px solid #ABB9CA;
+        border-right: 2px solid #ABB9CA;
+        border-left: 2px solid #ABB9CA;
+    }
+
+    &__list-line {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__line {
+        background: #ABB9CA;
+        width: 13px;
+        height: 13px;
+    }
+}

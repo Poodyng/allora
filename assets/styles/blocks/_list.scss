@@ -1,0 +1,125 @@
+.list {
+    padding: 120px 0;
+    background: #F8FE91;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 56px;
+    }
+
+    &__title {
+        position: relative;
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #373C42;
+        &:after {
+            content: '';
+            width: 120px;
+            height: 1px;
+            border-top: 1px solid  #9181FF;
+            position: absolute;
+            left: 29%;
+        }
+    }
+
+    &__sub-title {
+        max-width: 505px;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46px;
+        color: #373C42;
+    }
+
+    &__sub-text  {
+        max-width: 570px;
+    }
+
+    &__word {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #373C42;
+    }
+
+    &__list {
+        border-top: 1px solid #373C42;
+        border-bottom: 1px solid #373C42;
+    }
+
+    &__line {
+        padding: 37px 0 32px;
+        border-top: 1px solid #373C42;
+        border-bottom: 1px solid #373C42;
+        background: #F8FE91;
+        transition: 0.6s ease;
+        &:hover {
+            cursor: pointer;
+            background: #9181FF;
+        }
+    }
+
+    &__words-one {
+        margin-left: 90px;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        color: #373C42;
+        &__line {
+            &:hover {
+                color: #F8FE91;
+            }
+        }
+    }
+
+    &__words-two {
+        margin-left: 100px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        color: #373C42;
+    }
+
+    &__words-three {   
+        text-align: center;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        color: #373C42;
+    }
+    
+    &__words-four {
+        text-align: right;
+        margin-right: 150px;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        color: #373C42;
+    }
+
+    &__words-five {
+        text-align: center;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        color: #373C42;
+    }
+
+    &__words-six {
+        margin-left: 110px;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        color: #373C42;
+    }
+
+    &__number {
+        font-size: 19px;
+        margin-right: 10px;
+    }
+}

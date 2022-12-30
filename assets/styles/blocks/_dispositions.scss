@@ -1,0 +1,107 @@
+.dispositions {
+    padding: 120px 0 130px;
+    &__items {
+
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 87px;
+    }
+
+    &__title {
+        position: relative;
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #373C42;
+        &:after {
+            content: '';
+            width: 120px;
+            height: 1px;
+            border-top: 1px solid  #9181FF;
+            position: absolute;
+            left: 70%;
+        }
+    }
+
+    &__sub-title {
+        max-width: 505px;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46px;
+        color: #373C42;
+    }
+
+    &__sub-text  {
+        max-width: 550px;
+    }
+
+    &__word {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #373C42;
+    }
+
+    &__sub-word {
+        margin-top: 35px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #373C42;
+        border-bottom: 1px solid #373C42;
+        max-width: 110px;
+    }
+
+    &__block-card {
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        gap: 50px;
+
+    }
+
+    &__card {
+        
+    }
+
+    &__number {
+        margin: 30px 0 21px;
+        position: relative;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #373C42;
+        &::before {
+            content: '';
+            width: 120px;
+            height: 1px;
+            border-top: 1px solid  #9181FF;
+            position: absolute;
+            left: 10%;
+            top: 45%;
+        }
+    }
+
+    &__words {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #373C42;
+    }
+
+    &__sub-words {
+        max-width: 350px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #373C42;
+    }
+}
